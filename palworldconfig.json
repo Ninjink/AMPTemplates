@@ -1,0 +1,95 @@
+[
+    {
+        "DisplayName":"Public Port",
+        "Category":"Palworld Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"$GamePort",
+        "InputType":"number",
+        "Hidden":true,
+        "ParamFieldName":"/Script/Pal.PalGameWorldSettings.PublicPort",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"RCON Port",
+        "Category":"Palworld Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"$RCONPort",
+        "InputType":"number",
+        "Hidden":true,
+        "ParamFieldName":"/Script/Pal.PalGameWorldSettings.RCONPort",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Enable RCON",
+        "Category":"Palworld Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"RCONEnabled",
+        "InputType":"text",
+        "Hidden":true,
+        "ParamFieldName":"/Script/Pal.PalGameWorldSettings.RCONEnabled",
+        "DefaultValue":"True",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Server Name",
+        "Category":"Palworld Server Settings",
+        "Description":"Sets the name of the server that is displayed in the server list",
+        "Keywords":"server,name,servername",
+        "FieldName":"ServerName",
+        "InputType":"text",
+        "ParamFieldName":"/Script/Pal.PalGameWorldSettings.ServerName",
+        "DefaultValue":"AMP Powered Palworld Server",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Server Description",
+        "Category":"Palworld Server Settings",
+        "Description":"Sets the server description as it appears publicly",
+        "Keywords":"server,description,ServerDescription",
+        "FieldName":"ServerDescription",
+        "InputType":"text",
+        "ParamFieldName":"/Script/Pal.PalGameWorldSettings.ServerDescription",
+        "DefaultValue":"",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Server Password",
+        "Category":"Palworld Server Settings",
+        "Description":"Sets the password required for players to join the server. Default is no password",
+        "Keywords":"password,server,serverpassword",
+        "FieldName":"ServerPassword",
+        "InputType":"password",
+        "ParamFieldName":"/Script/Pal.PalGameWorldSettings.ServerPassword",
+        "DefaultValue":"",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Admin Password",
+        "Category":"Palworld Server Settings",
+        "Description":"Sets the password for server admin login. Default is a strong, random password",
+        "Keywords":"admin,password,adminpassword",
+        "FieldName":"AdminPassword",
+        "InputType":"password",
+        "ParamFieldName":"/Script/Pal.PalGameWorldSettings.AdminPassword",
+        "DefaultValue":"{{newguid()}}",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Player Limit",
+        "Category":"Palworld Server Settings",
+        "Description":"Sets the maximum number of players allowed on the server at one time",
+        "Keywords":"max,players,slots,limit,ServerPlayerMaxNum",
+        "FieldName":"$MaxUsers",
+        "InputType":"number",
+        "MinValue":"1",
+        "MaxValue":"32",
+        "ParamFieldName":"/Script/Pal.PalGameWorldSettings.ServerPlayerMaxNum",
+        "DefaultValue":"32",
+        "Placeholder":"32",
+        "Suffix":"players",
+        "EnumValues":{}
+    }
+]
